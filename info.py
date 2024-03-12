@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '9277335'))
-API_HASH = environ.get('API_HASH', '3fbed5d90d8820172f9f251269c01479')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6632505062:AAGHi_2AVc8sNB1zgPZzY9psDq1TZTpmcbE")
+API_ID = int(environ.get('API_ID', '27498647'))
+API_HASH = environ.get('API_HASH', 'f7764b70861584bca951040781111bfb')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6443672455:AAGZTi5FqgMhBFB8CAbgDbruRtuT_vm4Jps")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -64,13 +64,13 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/rockersallmoviesearch')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/cinemaduniyachannel')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/cinemaduniyasupport/24')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/ak_bot_support')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/ak_backup_72')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/ak_backup_72/1195')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ComfyTraderz')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'cinemaduniyaupport')
+MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : Ak74400')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001933029304'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'ak_bot_support')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
@@ -84,7 +84,7 @@ SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
-MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
+MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "False")), False)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "True")), True)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
