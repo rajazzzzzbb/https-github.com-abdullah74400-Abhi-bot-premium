@@ -21,10 +21,10 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6632505062:AAGHi_2AVc8sNB1zgPZzY9psDq1TZTp
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/0b74c069a55c9054ebcb0.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
+PICS = (environ.get('PICS', 'https://telegra.ph/file/9345bf683e1bb1f0cf107.jpg https://telegra.ph/file/2371c5221fd50d35271c9.jpg https://telegra.ph/file/9304f4eba77dfcfc9474e.jpg https://telegra.ph/file/a0ba20139c81e0da92926.jpg')).split() #SAMPLE PIC
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/0f2e4a6f6ea841a5392ca.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/85d361ab4cb6511006022.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5ed9849d77856538e539c.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/cce660b3408f7cdeef1e3.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/0e2bc4c69e7a471e242b8.jpg'))
 CODE = (environ.get('CODE', 'https://t.me/ak_backup_72/1198'))
 
@@ -50,15 +50,15 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Johnwick:khan7860@cluster0.kht17ya.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "comfymoviez")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Storm72:khan7860@cluster0.udehz9j.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://ckhan:khan7860@cluster0.cloi5w7.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Storm72")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'instantlinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'adc3dce8c3d9f968ab0909ba04c6bd0ef1f83d1a')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'uvlink.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', '82289275b603234a49e28b232de41b8ad013f573')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
