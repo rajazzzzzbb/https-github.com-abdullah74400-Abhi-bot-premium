@@ -13,44 +13,44 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+API_ID = int(environ.get('API_ID', '9277335'))
+API_HASH = environ.get('API_HASH', '3fbed5d90d8820172f9f251269c01479')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6632505062:AAGHi_2AVc8sNB1zgPZzY9psDq1TZTpmcbE")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/751559d5245d6dd9e20c0.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
+PICS = (environ.get('PICS', 'https://telegra.ph/file/0b74c069a55c9054ebcb0.jpg')).split() #SAMPLE PIC
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/85d361ab4cb6511006022.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/86b7b7e2aa7e38f328902.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5ed9849d77856538e539c.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/0e2bc4c69e7a471e242b8.jpg'))
-CODE = (environ.get('CODE', 'https://t.me/cinemaduniyasupport/31'))
+CODE = (environ.get('CODE', 'https://t.me/ak_backup_72/1198'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'instantlinks.in'))
-STREAM_API = (environ.get('STREAM_API', 'adc3dce8c3d9f968ab0909ba04c6bd0ef1f83d1a'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/cinemaduniyasupport/24'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'uvlink.ne'))
+STREAM_API = (environ.get('STREAM_API', '82289275b603234a49e28b232de41b8ad013f573'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/ak_backup_72/1195'))
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6977859652 2038847704').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002084096213 -1002137961726').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1807927334').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001934026580').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
-auth_channel = environ.get('AUTH_CHANNEL', '-1002073616557')
+PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '1807927334').split()]
+auth_channel = environ.get('AUTH_CHANNEL', '')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002086950913')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '')
 reqst_channel = environ.get('REQST_CHANNEL_ID', '')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Johnwick:khan7860@cluster0.kht17ya.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "comfymoviez")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
