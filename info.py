@@ -29,7 +29,7 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/0e2bc4c69e7a
 CODE = (environ.get('CODE', 'https://t.me/ak_backup_72/1198'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'uvlink.ne'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'uvlink.net'))
 STREAM_API = (environ.get('STREAM_API', '82289275b603234a49e28b232de41b8ad013f573'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/ak_backup_72/1195'))
 
