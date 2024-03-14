@@ -145,7 +145,7 @@ async def next_page(bot, query):
     temp.SHORT[query.from_user.id] = query.message.chat.id
     settings = await get_settings(query.message.chat.id)
     pre = 'filep' if settings['file_secure'] else 'file'
-    if settings['button']:
+    if settings['links']:
         btn = [
             [
                 InlineKeyboardButton(
@@ -384,7 +384,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
     temp.GETALL[key] = files
     settings = await get_settings(message.chat.id)
     pre = 'filep' if settings['file_secure'] else 'file'
-    if settings["button"]:
+    if settings["links"]:
         btn = [
             [
                 InlineKeyboardButton(
@@ -547,7 +547,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
     temp.GETALL[key] = files
     settings = await get_settings(message.chat.id)
     pre = 'filep' if settings['file_secure'] else 'file'
-    if settings["button"]:
+    if settings["links"]:
         btn = [
             [
                 InlineKeyboardButton(
@@ -740,7 +740,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
     temp.GETALL[key] = files
     settings = await get_settings(message.chat.id)
     pre = 'filep' if settings['file_secure'] else 'file'
-    if settings["button"]:
+    if settings["links"]:
         btn = [
             [
                 InlineKeyboardButton(
@@ -2085,7 +2085,7 @@ async def auto_filter(client, msg, spoll=False):
     FRESH[key] = search
     temp.GETALL[key] = files
     temp.SHORT[message.from_user.id] = message.chat.id
-    if settings["button"]:
+    if settings["links"]:
         btn = [
             [
                 InlineKeyboardButton(
