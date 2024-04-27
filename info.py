@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/0e2bc4c69e7a
 CODE = (environ.get('CODE', 'https://t.me/ak_backup_72/1198'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'zipshort.net'))
-STREAM_API = (environ.get('STREAM_API', '4623cd7019ade92446a852c0a5c453cd3e88053e'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'uvlink.net'))
+STREAM_API = (environ.get('STREAM_API', '82289275b603234a49e28b232de41b8ad013f573'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/ak_backup_72/1195'))
 
 # Admins, Channels & Users
@@ -57,8 +57,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'zipshort.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '4623cd7019ade92446a852c0a5c453cd3e88053e')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'uvlink.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', '82289275b603234a49e28b232de41b8ad013f573')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
