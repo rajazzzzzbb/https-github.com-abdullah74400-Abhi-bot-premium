@@ -21,17 +21,17 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6828770594:AAEmPEZH8lMd7gyFZXl4CSMmfUiCUhb
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/0b74c069a55c9054ebcb0.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://telegra.ph/file/2e14c61c67f0ab9951b89.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/85d361ab4cb6511006022.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5ed9849d77856538e539c.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/0e2bc4c69e7a471e242b8.jpg'))
-CODE = (environ.get('CODE', 'https://t.me/ak_backup_72/1198'))
+CODE = (environ.get('CODE', 'https://t.me/Hindi_movie_uplod/36'))
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'instantlinks.co'))
 STREAM_API = (environ.get('STREAM_API', '620c2c063949f80495c677d2bba515e8980ce904'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/ak_backup_72/1195'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Hindi_movie_uplod/36'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1807927334 1133549523').split()]
@@ -64,13 +64,13 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/ak_bot_support')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/ak_backup_72')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/ak_backup_72/1195')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Your_Movie_Link_8')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Hindi_movie_uplod')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Hindi_movie_uplod/36')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : Ak74400')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001933029304'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'ak_bot_support')
+MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : Abhikumar7799')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002036849852'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Your_Movie_Link_8')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
