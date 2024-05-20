@@ -33,7 +33,7 @@ Iᴅ = <code>{}</code>
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
 Aᴅᴅᴇᴅ Bʏ - {}
 
-BʏAK""
+BʏAK"""
 
     LOG_TEXT_P = """#NewUser
     
