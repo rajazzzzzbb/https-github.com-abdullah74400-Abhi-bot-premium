@@ -30,7 +30,7 @@ CODE = (environ.get('CODE', 'https://t.me/Hindi_movie_uplod/43'))
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'brieflyurl.com'))
-STREAM_API = (environ.get('STREAM_API', 'd35593bdd2032426cb96230d85a18082a1ace7a7'))
+STREAM_API = (environ.get('STREAM_API', 'b4f15b175a73d90983d57170877eec6b25f91a82'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Hindi_movie_uplod/36'))
 
 # Admins, Channels & Users
@@ -58,7 +58,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'brieflyurl.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'd35593bdd2032426cb96230d85a18082a1ace7a7')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'b4f15b175a73d90983d57170877eec6b25f91a82')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
