@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/0e2bc4c69e7a
 CODE = (environ.get('CODE', 'https://t.me/Hindi_movie_uplod/43'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'papajiurl.com'))
-STREAM_API = (environ.get('STREAM_API', '77960489f7791283414e359c32475f1f07e0fdd3'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'arlinks.in'))
+STREAM_API = (environ.get('STREAM_API', 'c8deaa7cb811330e142c77d4050754c9cda60dfa'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Hindi_movie_uplod/36'))
 
 # Admins, Channels & Users
@@ -57,8 +57,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'papajiurl.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '77960489f7791283414e359c32475f1f07e0fdd3')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arlinks.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'c8deaa7cb811330e142c77d4050754c9cda60dfa')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
