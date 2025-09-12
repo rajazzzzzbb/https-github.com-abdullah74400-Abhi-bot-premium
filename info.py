@@ -26,7 +26,7 @@ NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/85d361ab4cb6511006022.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/14ca5674072491cda2d59.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/0e2bc4c69e7a471e242b8.jpg'))
-CODE = (environ.get('CODE', 'https://t.me/Hindi_movie_uplod'))
+CODE = (environ.get('CODE', 'https://t.me/Movie_house_club'))
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'arlinks.in'))
